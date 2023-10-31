@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Resume</title>
+  </head>
+  <body>
+    <!-- container for sidebar-->
+    <div id="sidebar-container"></div>
+
+    <main>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link active" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="resume.html">Resume</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="blog.html">Blog</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #RESUME -->
+
+        <article class="resume">
+          <header>
+            <h1 class="article-title-resume">Resume</h1>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h1 class="h1">Education</h1>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  NYU Tandon School of Engineering
+                </h2>
+                <br />
+                <h3 class="h3 timeline-item-title">
+                  Bachelor of Science - BS in Computer Science, minor in Math
+                </h3>
+                <br />
+                <span>2021 — 2025</span>
+
+                <p class="timeline-text">
+                  - Grade: GPA: 3.75 <br />
+                  - NYU Tandon CSSA Technical Department member <br />
+                  - NYU HPC & SCC23 <br />
+                  - 2021,2022 Dean's List Honor<br />
+                </p>
+
+                <p class="timeline-text">
+                  <strong>CS Courses:</strong> Algorithms & Data Structures;
+                  Object-Oriented Programming; Intro to Database; Intro to Web
+                  Development; Computer Architecture and Organization; Algorithm
+                  Analysis; Machine Learning; Digital Logic and State Machine
+                  Design; Operating System;<br />
+                  <strong>Math Courses:</strong> Calculus; Multivariate
+                  Calculus; Data Analysis; Discrete Mathematics; Linear Algebra
+                  and Differential Equations
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  Jinan Foreign Language School International Center
+                </h2>
+                <br />
+                <h3 class="h3 timeline-item-title">High School Diploma</h3>
+                <br />
+                <span>2018 — 2021</span>
+
+                <p class="timeline-text">
+                  - Grade: GPA 4.13/4.0 <br />
+                  - Class Leader of 22<br />
+                  - 2019-2020 JNFLS Merit Student<br />
+                  - 2020-2021 JNFLS Merit Student<br />
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h1 class="h1">Experience</h1>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">SkillUpIT</h2>
+                <h3 class="h3 timeline-item-title">
+                  Back-End Developer Intern
+                </h3>
+                <span>06.2023 — 09.2023</span>
+
+                <p class="timeline-text">
+                  - Took part in the planning and execution of the "Buy Now"
+                  business request. Integrated Redis and RocketMQ based on the
+                  MySQL master-slave architecture to enhance throughput,
+                  elevating it from the thousands to the tens of thousands QPS
+                  range. <br />
+                  - Decomposed the existing monolithic order system into
+                  specialized promotion and order microservices in alignment
+                  with Domain-Driven Design (DDD) and SOLID principles,
+                  enhancing maintainability and scalability. Utilized Consul as
+                  the service registry, orchestrated API routing through Spring
+                  Cloud Gateway, leveraged OpenFeign for declarative API calls.
+                  <br />
+                  - Utilized JOOQ as the database Object-Relational Mapping
+                  (ORM) tool and used Flyway for database version control and
+                  migration, ensuring seamless schema updates and application
+                  consistency. - Bolstered system performance with cache
+                  preheating for active promotions, significantly reducing
+                  response times. Employed Redis and Lua scripting to ensure TCC
+                  (Try-Confirm-Cancel) compliance for inventory locking and
+                  reversion.<br />
+                  - Peak-load shifting order service stress by asynchronously
+                  creating order using RocketMQ. Implemented "Pay-Check&Cancel"
+                  by consuming delay messages. And optimized optimistic-lock of
+                  updating inventory in MySQL database.<br />
+                  - Integrated Hystrix into inventory service to boost system
+                  resilience, minimizing fault rates and safeguarding against
+                  cascading failures.
+                  <br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">Uber</h2>
+                <h3 class="h3 timeline-item-title">
+                  Uber Career Prep 2023 SDE Fellow
+                </h3>
+                <span>01.2023 — 08.2023</span>
+
+                <p class="timeline-text">
+                  - Selected as a top 4% fellow for targeted skill development
+                  in Uber 2023 Career Prep Program, engaging in over 40 hours of
+                  specialized training with senior engineers and 14 one-on-one
+                  coaching sessions. <br />
+                  - Understand inclusive design through scenario-based
+                  simulations and gaining expertise in regulatory compliance
+                  while authoring a PRD for self-driving car sensors, aligned
+                  with both local legislation and Uber's product objectives.
+                  <br />
+                  - Engaged in specialized workshops and mentor sessions to
+                  sharpen my understanding of Algorithms and Data Structures,
+                  implementing key algorithms in Python and vital data
+                  structures in C++.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">OSFD</h2>
+                <h3 class="h3 timeline-item-title">Software Engineer Intern</h3>
+                <span>11.2022 — 01.2023</span>
+
+                <p class="timeline-text">
+                  - Successfully developed a front-end project to create a
+                  user-friendly web page using HTML, CSS, JavaScript and
+                  React.js, which can handle user uploaded ZIP compressed
+                  files.<br />
+                  - Proficiency in using Git for version control, enabling
+                  parallel development of multiple versions of code and
+                  efficient merging, effectively improving team
+                  collaboration.<br />
+                  - Innovative use of Vercel and GitHub push pre-defined rules
+                  to assist in code cross-review, ensuring code quality and
+                  project stability.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">Google</h2>
+                <h3 class="h3 timeline-item-title">
+                  Hardware Product Sprint (HPS) participant
+                </h3>
+                <span>05.2022 — 08.2022</span>
+
+                <p class="timeline-text">
+                  - One of the 25 students selected to participate in the Google
+                  Consumer Electronics 12 week development program.<br />
+                  - Designed my own clock using microcontrollers, breadboard
+                  prototypes, PCB design, assembly, and testing.<br />
+                  - Designed and built a PCB in KiCAD and worked with Google
+                  engineers to assemble, program and test it.<br />
+                  - Invited to "EVT Week" online to assemble, build, debug and
+                  present the final product to Google electrical engineers,
+                  product designers and the HPS community.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">SOTEREA</h2>
+                <h3 class="h3 timeline-item-title">
+                  Student Researcher - Machine Learning
+                </h3>
+                <span>07.2021 — 09.2021</span>
+
+                <p class="timeline-text">
+                  - Participate in research on image processing, image
+                  recognition, and semantic segmentation<br />
+                  - Trained SegNet-based semantic segmentation models to help
+                  cars better identify non-motorized vehicles and
+                  pedestrians.<br />
+                  - Attended a seminar for 100-150 high school students and gave
+                  a speech about image processing in autonomous driving.
+                  <br />
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h1 class="h1">Project & Club</h1>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  Air-ticket Reservation System
+                </h2>
+
+                <span>01.2023 — 05.2023</span>
+
+                <p class="timeline-text">
+                  - Utilized HTML and CSS technologies to create a feature-rich
+                  and minimalist frontend user interface, simplifying operations
+                  for customers and staff.<br />
+                  - Developed the backend using the Python Flask framework to
+                  provide stable services and meet the high-concurrency demands
+                  of the system.<br />
+                  - Employed MySQL for data storage, with finely designed
+                  database architecture and data models to support complex
+                  queries and statistical operations.<br />
+                  - Implemented a range of functionalities, including
+                  registration, login, flight search, purchase, and expense
+                  statistics for both users and staff, effectively enhancing
+                  user experience and operational efficiency.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  Machine learning predictions
+                </h2>
+
+                <span>01.2023 — 05.2023</span>
+
+                <p class="timeline-text">
+                  - Collaborated on the development of the "Predict Student
+                  Performance from Game Play" project, which aims to predict
+                  student learning performance through game behavior data.<br />
+                  - Participated in data preprocessing, using time series
+                  matching methods to synchronize the training set and target
+                  set, while also encoding features to ensure data usability and
+                  accuracy.<br />
+                  - Employed a variety of models for prediction, including
+                  Linear SVM, a 5-layer neural network, and Logistic Regression,
+                  demonstrating excellent machine learning skills.<br />
+                  - Used 5-fold cross-validation for model tuning, grid search,
+                  and Keras adaptive alpha to find the optimal parameters,
+                  optimizing model performance.<br />
+                  - Successfully predicted student learning performance with a
+                  prediction accuracy rate of 0.675, fully demonstrating the
+                  practicality and predictive power of the project.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">YWS_NFT_World</h2>
+
+                <span>01.2023 — 03.2023</span>
+
+                <p class="timeline-text">
+                  - Use NFT World to forge an NFT containing my world.<br />
+                  - Deployed My World Java Edition server using Google Cloud.<br />
+                  - Participating in the production and distribution of MC Paper
+                  Mode as a contributor.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  Personal Website Based on Apache Server and Front End Skills
+                </h2>
+
+                <span>05.2022 — 09.2022</span>
+
+                <p class="timeline-text">
+                  - Built a personal web server based on RaspberryPi and Apache
+                  HTTP Server by self-taught on Youtube.<br />
+                  - Created a personal website using front-end language and
+                  React framework. Developed a Spider-Man web game and chemical
+                  equation balancing website through Javascript, HTML and CSS
+                  and published them on the personal server.<br />
+                  - Constructed an individual image host by using node.js and
+                  PicGo.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  Chemical Equation Practicer
+                </h2>
+
+                <span>01.2021 — 05.2021</span>
+
+                <p class="timeline-text">
+                  - Provides an intuitive and user-friendly interface for
+                  presenting chemical equation problems and prompting students
+                  to input their balanced equations.<br />
+                  - Compares students' answers with the correct solutions and
+                  provides immediate feedback on correctness status and
+                  score.<br />
+                  - Records equations answered incorrectly by students for
+                  future review and learning.<br />
+                  - Developed a visually appealing and intuitive learning
+                  platform for students by utilizing Java Swing for the user
+                  interface.<br />
+                  - Implemented an algorithm to accurately evaluate students'
+                  answers by comparing them with the correct solutions.<br />
+                  - Designed an error tracking feature to record and display
+                  equations answered incorrectly by students.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  HiTech Club, Club President
+                </h2>
+
+                <span>2019 — 2021</span>
+
+                <p class="timeline-text">
+                  - Taught 34 senior high school students programming languages
+                  such as JAVA and SWIFT, supported them in completing projects
+                  such as movie crawler, calculus calculator, and personal blog
+                  with club members, and helped the members better acquaint
+                  themselves with programming languages.<br />
+                  - Led members and interested students to learn basic
+                  algorithms and data structures. Prepared students for computer
+                  competitions such as USACO (United States Computer Olympiad)
+                  and CCC (Canadian Computer Olympiad).<br />
+                  - Assigned weekly tasks to members according to their
+                  specialties, organized weekly meetings to ensure the project's
+                  progress was on schedule, and won the best design award of the
+                  Association.<br />
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h1 class="h1">Activity</h1>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">Yishan, China</h2>
+                <h3 class="h3 timeline-item-title">Data Volunteer</h3>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  - Collected data on donation to help the charity allocate food
+                  and medical resources during the COVID-19 period.<br />
+                  - Recognized 1500 images and classified 3000 donation
+                  information during the COVID-19.<br />
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h2 class="h2 timeline-item-title">
+                  Jinan Foreign Language School
+                </h2>
+                <h3 class="h3 timeline-item-title">
+                  Teaching Volunteer to Junior high School
+                </h3>
+                <span>2022 — 2022</span>
+
+                <p class="timeline-text">
+                  - Corrected 45 students' homework and tutored 23 of them in
+                  English, Physics and Mathematics.<br />
+                  - Organized one-on-one weekly meetings and monthly sports
+                  activities for students with psychological problems to help
+                  them build mental health and relieve the pressure.<br />
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h1 class="h2 skills-title">My skills</h1>
+
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">Backend Develop -></h3>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">Python -></h3>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">Java -></h3>
+                  <data value="90">90%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 90%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">C++ -></h3>
+                  <data value="80">80%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">Machine Learning -></h3>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">HPC -></h3>
+                  <data value="70">70%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h3 class="h3">Mandarin -></h3>
+                  <data value="100">100%</data>
+                </div>
+
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 100%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <section class="download">
+            <h3 class="h3 download-title">Download Resume</h3>
+            <ul class="download-list content-card">
+              <a
+                href="/download/Yuwei Sun's resume.pdf"
+                download="Yuwei Sun's resume.pdf"
+              >
+                <button class="download-button">Click to Download</button>
+              </a>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- script for sidebar -->
+    <script>
+      $(document).ready(function () {
+        $("#sidebar-container").load("sidebar.html");
+      });
+    </script>
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

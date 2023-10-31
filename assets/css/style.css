@@ -1,0 +1,508 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Share+Tech&display=swap');
+
+body, h1, h2, h3, h4, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Share Tech', sans-serif;
+}
+
+p {
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+body {
+    margin-top: 60px;
+    background-color: #151515; 
+    color: #E0A859; 
+}
+
+/* Main container */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 300px;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #383838;
+    overflow: hidden;
+    position: fixed;  /* keep the navbar at the top*/
+    top: 0;
+    width: 100%;
+    z-index: 10;  /* ensures navbar always top */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Slight shadow for depth */
+}
+
+.navbar-list {
+    display: flex;
+    justify-content: center;  /* centers the list items */
+}
+
+.navbar-item {
+    flex: 1;
+}
+
+.navbar-link {
+    display: block;
+    color: #E0A859;
+    text-align: center;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.navbar-link:hover {
+    background-color: #E0A859; 
+    color: #212121;
+}
+
+.navbar-link.active {
+    background-color: #E0A859;
+    color: #212121;
+}
+
+/* Main content sections */
+.section {
+    margin: 40px 0;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+/* Interests and item */
+.items-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    flex: 1;
+    min-width: 200px;
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #E0A859;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s; /* Smooth transition effects */
+}
+
+.interests-list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: no-wrap; /* Ensure no wrapping */
+    gap: 20px;
+    overflow-x: auto;  /* Allow horizontal scrolling */
+    white-space: nowrap; 
+}
+
+.interest-item {
+    display: inline-block;
+    width: 200px;  /* smaller images */
+    height: 200px;
+    margin-right: 10px;
+    background-color:#212121;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.interest-item img {
+    width: 200px;  
+    height: 200px;  
+    object-fit: cover;
+}
+
+.icon-box {
+    margin-bottom: 10px;
+}
+
+.icon-box img {
+    max-width: 100%;
+}
+
+.content-box {
+    text-align: left;
+}
+
+
+/* 
+************ Resume ************
+*/
+
+.resume {
+    font-size: 18px; 
+    line-height: 1.6; /* line space */
+}
+
+h1, .h1 {
+    font-size: 36px;
+}
+
+h2, .h2 {
+    font-size: 30px;
+}
+
+h3, .h3 {
+    font-size: 24px;
+}
+
+.article-title-resume {
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.timeline {
+    margin: 30px 0;
+}
+
+.title-wrapper {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.icon-box {
+    margin-right: 10px;
+}
+
+.timeline-list {
+    padding-left: 20px;
+}
+
+.timeline-item {
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+.timeline-text {
+    font-size: 16px;
+    color:wh;
+    margin-bottom: 10px;
+}
+
+/* Styles for the Skills section */
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+}
+
+.skills-title {
+    margin-bottom: 20px;
+}
+
+.skills-list {
+    width: 80%; 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-item {
+    margin-bottom: 20px; 
+}
+
+.skill-progress-bg {
+    background-color: #ddd;
+    height: 20px;
+    border-radius: 4px;
+}
+
+.skill-progress-fill {
+    background-color: #fa9b26;
+    height: 100%;
+    border-radius: 4px;
+}
+
+p.timeline-text, ul.download-list, ul.skills-list {
+    margin-bottom: 20px;
+}
+
+/* Styles for the Download section */
+.download {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.download-button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: #0073b1; /* LinkedIn blue */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.download-button:hover {
+    background-color: #4c644d;
+}
+
+
+/* 
+************ Portfolio ************
+*/
+
+button {
+    cursor: pointer; /* Change the cursor on hover */
+    background-color: #007BFF; 
+    color: #fff; 
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+button:hover {
+    background-color: #0056b3; /* darker blue */
+}
+
+button:active {
+    background-color: #003d7a; /* dark blue */
+}
+
+button.active {
+    margin: 4px;
+    border: 1px solid #007BFF;
+    background-color: transparent;
+    color: #007BFF;
+}
+
+.article-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.filter-list {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+.filter-select {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-list {
+    display: grid; /* grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 20px; 
+    align-items: start; 
+}
+
+.filter-select-box {
+    width: 100%;
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+.filter-item, .project-item {
+    margin-right: 10px;
+}
+
+.project-item {
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    background-color: #fff; 
+}
+
+.project-img img {
+    width: 100%; 
+    height: auto; 
+}
+
+.project-item-icon-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.project-title, .project-category {
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.filter-select-box {
+    position: relative;
+}
+
+.select-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: none;  /* Initially hidden, can be shown using JavaScript */
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.select-item button {
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+}
+
+
+/* 
+************ Blog ************
+*/
+
+/* Blog Section */
+.blog-posts-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    align-items: start;
+}
+
+.blog-post-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: #fff;
+    transition: transform 0.3s;
+}
+
+.blog-post-item:hover {
+    transform: scale(1.05);
+}
+
+.blog-banner-box img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-item-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.blog-text, .blog-meta {
+    text-align: center;
+}
+
+.blog-meta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dot {
+    width: 5px;
+    height: 5px;
+    background-color: #000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.blog p,h3{
+    color: gray;
+}
+
+.blog h3{
+    color: black;
+}
+
+/* 
+************ Sidebar ************
+*/
+
+#sidebar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 300px; 
+    height: 100%;
+    overflow-y: auto; 
+    background-color: #333;
+}
+
+.sidebar {
+    width: 250px; /* 1/3 width */
+    padding: 20px;
+    background-color: black; /* black */
+  }
+  
+  .sidebar-info {
+    display: flex;
+    flex-direction: column; /* horizontal layout */
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar-info img {
+    width: 200px;
+    height: auto;
+}
+  
+  .avatar {
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .contact-info,
+  .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .contact-info li,
+  .social-links li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info li ion-icon,
+  .social-links li ion-icon {
+    
+    margin-left: 10px;
+  }
+
+  .social-links li ion-icon {
+    margin-left: 30%;
+  }
+  
+
+.sidebar-info a,
+.contact-info a,
+.social-links a {
+    color: white;
+}

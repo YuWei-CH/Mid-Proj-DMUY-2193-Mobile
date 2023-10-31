@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <!-- container for sidebar-->
+    <div id="sidebar-container"></div>
+    <main>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link active" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="resume.html">Resume</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="blog.html">Blog</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #PORTFOLIO  -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Software</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Hardware</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Others</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Software</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Hardware</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Others</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="software"
+              >
+                <a
+                  href="https://github.com/YuWei-CH/Formalist-articles-writer-java"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpeg"
+                      alt="formalist-articles-writer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Formalist Articles Writer</h3>
+
+                  <p class="project-category">Software</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="software"
+              >
+                <a href="https://github.com/YuWei-CH/Spider-man-games">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.jpeg"
+                      alt="spider-man-games"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Spider Man Games</h3>
+
+                  <p class="project-category">Software</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="software"
+              >
+                <a href="https://github.com/YuWei-CH/Airline_ticket">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.png"
+                      alt="Airline_ticket_reservation_system"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">ATRS</h3>
+
+                  <p class="project-category">Software</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="hardware"
+              >
+                <a href="https://github.com/YuWei-CH/Tandon_SLDP_SwingAid">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.png"
+                      alt="Tandon_SLDP_SwingAid"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">SLDP SWingAid</h3>
+
+                  <p class="project-category">Hardware</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="hardware"
+              >
+                <a href="https://github.com/YuWei-CH/Yuwei_Clock">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.jpg"
+                      alt="PCB-clock-design"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">PCB Clock Design</h3>
+
+                  <p class="project-category">Hardware</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="software"
+              >
+                <a
+                  href="https://github.com/YuWei-CH/Chemical-Equation-Practicer"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.jpeg"
+                      alt="Chemical-Equation-Practicer"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Chemical Equation Practicer</h3>
+
+                  <p class="project-category">Software</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="software"
+              >
+                <a
+                  href="https://docs.google.com/presentation/d/1mZGWv5U6GruK9LdFUhN2BuLDlSHEAn_tpMphliqDIjU/edit?usp=sharing"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.png"
+                      alt="Predict-Student-Performance-from-Game-Play"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Predict Student Performance from Game Play
+                  </h3>
+
+                  <p class="project-category">Software</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- script for sidebar -->
+    <script>
+      $(document).ready(function () {
+        $("#sidebar-container").load("sidebar.html");
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#sidebar-container").load("sidebar.html");
+
+        // Filter function
+        $("button[data-filter-btn]").on("click", function () {
+          // Get the category from the button text and convert it to lowercase.
+          const category = $(this).text().toLowerCase();
+
+          // Remove 'active' class from all filter buttons.
+          $("button[data-filter-btn]").removeClass("active");
+
+          // Add 'active' class to the clicked button.
+          $(this).addClass("active");
+
+          // Show or hide projects based on the selected filter.
+          if (category === "all") {
+            // Show all projects if the 'All' filter is selected.
+            $("li[data-filter-item]").show();
+          } else {
+            // Hide all projects.
+            $("li[data-filter-item]").hide();
+
+            // Show only the projects that match the selected category.
+            $('li[data-filter-item][data-category="' + category + '"]').show();
+          }
+        });
+      });
+    </script>
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- container for sidebar-->
+    <div id="sidebar-container"></div>
+    <main>
+      <div class="main-content">
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a class="navbar-link active" href="index.html">Home</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="resume.html">Resume</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="blog.html">Blog</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#"></a>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #BLOG  -->
+
+        <article class="blog" data-page="blog">
+          <header>
+            <h2 class="h2 article-title">Blog</h2>
+          </header>
+
+          <section class="blog-posts">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>TECH</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>READ</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>GALLERY</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>TECH</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>READ</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>GALLERY</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="blog-posts-list">
+              <li class="blog-post-item">
+                <a href="#">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="assets/images/NY_01.jpg"
+                      alt="gallery-NY"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">GALLERY</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">DEC 26, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">A lot memory</h3>
+
+                    <p class="blog-text">Pixels can record life</p>
+
+                    <p class="project-category">GALLERY</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://mp.weixin.qq.com/s/GFxJOBWI0P6ggE2JohBnGQ">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-1.jpeg"
+                      alt="心"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Read & Thinking</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jan 24, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Kazuo Inamori, The Heart</h3>
+
+                    <p class="blog-text">
+                      Be pure of heart and see the truth, be a kind person
+                    </p>
+
+                    <p class="project-category">READ</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a
+                  href="https://www.notion.so/HPCG-Basic-Tutorial-8e2e9d2a9d7949208f6465fc442eebf7?pvs=12"
+                >
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/HPCG.jpg" alt="HPCG" />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Tech Document</p>
+                      <span class="dot"></span>
+                      <time datetime="2023-10-1">Oct 01, 2023</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">Basic HPCG Tutorial</h3>
+
+                    <p class="blog-text">Download + Setup + Run</p>
+
+                    <p class="project-category">TECH</p>
+                  </div>
+                </a>
+              </li>
+
+              <li class="blog-post-item">
+                <a href="https://mp.weixin.qq.com/s/tenKGEtJAUNnm6p7bKzTEA">
+                  <figure class="blog-banner-box">
+                    <img
+                      src="./assets/images/blog-2.jpeg"
+                      alt="硅谷钢铁侠"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <div class="blog-content">
+                    <div class="blog-meta">
+                      <p class="blog-category">Read & Thinking</p>
+
+                      <span class="dot"></span>
+
+                      <time datetime="2022-02-23">Jan 21, 2022</time>
+                    </div>
+
+                    <h3 class="h3 blog-item-title">
+                      Iron Man of Silicon Valley - Elon Musk
+                    </h3>
+
+                    <p class="blog-text">
+                      First principles, thinking from the ground up
+                    </p>
+                    <p class="project-category">READ</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- script for sidebar -->
+    <script>
+      $(document).ready(function () {
+        $("#sidebar-container").load("sidebar.html");
+      });
+    </script>
+    <script>
+      $(document).ready(function () {
+        $("#sidebar-container").load("sidebar.html");
+
+        // Filter function for the blog
+        $("button[data-filter-btn]").on("click", function () {
+          // Get the category from the button text and convert it to lowercase.
+          const category = $(this).text().toLowerCase();
+
+          // Remove 'active' class from all filter buttons.
+          $("button[data-filter-btn]").removeClass("active");
+
+          // Add 'active' class to the clicked button.
+          $(this).addClass("active");
+
+          // Show or hide blog posts based on the selected filter.
+          if (category === "all") {
+            // Show all blog posts if the 'All' filter is selected.
+            $("li.blog-post-item").show();
+          } else {
+            // Hide all blog posts.
+            $("li.blog-post-item").hide();
+
+            // Show only the blog posts that match the selected category.
+            $(
+              'li.blog-post-item .project-category:contains("' +
+                category.toUpperCase() +
+                '")'
+            )
+              .closest("li.blog-post-item")
+              .show();
+          }
+        });
+      });
+    </script>
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
